@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Navbar } from './components/Navbar.jsx';
-import { Shop } from './pages/shop/Shop.jsx';
-import { Cart } from './pages/cart/Cart.jsx';
+import { Navbar } from './components/navbar.jsx';
+import { Shop } from './pages/shop/shop.jsx';
+import { Cart } from './pages/cart/cart.jsx';
 
 function App() {
 	return (
